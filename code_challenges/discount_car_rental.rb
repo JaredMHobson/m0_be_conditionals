@@ -19,3 +19,5 @@ elsif good_driving_record == true || age > 25
     else
         puts "Who gave you a license?! Get someone else to sign for your rental."
     end
+
+    # I assumed that "over 25" meant 26 and higher. If you meant to include 25 I would replace the ">" with ">="
