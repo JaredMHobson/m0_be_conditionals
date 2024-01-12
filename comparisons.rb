@@ -23,24 +23,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
+puts "Is number_students less than or equal to 20?", number_students <= 20
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+puts "Is number_students less than or equal to 21?", number_students <= 21
 
 
 #-------------------
@@ -54,20 +61,24 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# This will print the result of "is the integer 4 less than the integer 9". This is true. 
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This sets the variable "books" to equal the integer 3. It then prints the result of "is the integer 4 less than the variable books. Since the variable books equals the integer 3, this is false. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This sets the variable "friends" equal to the integer 6 and the variable "siblings" equal to the integer 2. It then prints the results of "is the variable friends greater than the variable siblings which translates to is 6 greater than 2 which is true. "
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# This sets the varaible "attendees" equal to the integer 9 and the variable "meals" equal to the integer 8. The "!" is called a bang and basically means "not". Since it is next to the "=", this will print the result of "is the variable attendes NOT equal to the variable meals or is 9 NOT equal to 8 which is true."
 
 
 #-------------------
@@ -90,15 +101,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age > 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: It evaluated to false. I decided that any age greater than 1 would mean the dog is no longer a puppy. So when I did "age > 1", it is checking if 1 is greater than 1 which it is not. Since both values must be true, the dog has to love to play and has to be a puppy, the result was false. 
