@@ -111,7 +111,7 @@ puts loves_to_play && loves_dog_park
 puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-puts loves_to_play && age > 1
+puts loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER: It evaluated to false. I decided that any age greater than 1 would mean the dog is no longer a puppy. So when I did "age > 1", it is checking if 1 is greater than 1 which it is not. Since both values must be true, the dog has to love to play and has to be a puppy, the result was false. 
+# ANSWER: It evaluated to false. I decided that any age greater than 1 would mean the dog is no longer a puppy. So when I did "age < 1", it is checking if age is less than 1, which it is not. Since both values must be true, the dog has to love to play and has to be a puppy, the result was false. 
